@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>hot</title>
+		<title>Hot</title>
 		<style type="text/css">
 			body{
 				margin: 0px;
@@ -33,6 +33,10 @@
 			.gif:hover{
 				opacity: 0.8;
 			}
+			#bububu{
+				margin: auto;
+				width: 60px;
+			}
 			#bu{
 				width: 60%;
 				margin: 40px auto 0px auto;
@@ -40,10 +44,23 @@
 				opacity: 0;
 			}
 			#but{
+				width: 60px;
 				position: absolute;
-				left: 20px;
 				top: 20px;
 			}
+			#img div{
+				width: 80%;
+				height: 650px;
+				margin: auto;
+			}
+			#gif div{
+				width:80%;
+				height: 650px;
+			}
+			#video{
+				width: 100%;
+				margin: auto;
+			}		
 		</style>
 		<script type="text/javascript">
 			function buttt () {
@@ -59,10 +76,6 @@
 		</script>
 	</head>
 	<body>
-		<div>
-			<img src="but.png" id="but" onmouseover="buttt()" onmouseout="butt()">
-			<img src="bu.png" id="bu">
-		</div>
 		<div id="img">
 			<img src="1.png" class="img">
 			<img src="8.png" class="img">
@@ -104,5 +117,10 @@
 			<img src="18.gif" class="gif">
 		</div>
 		<audio src="sound.mp3" autoplay loop></audio>
+		<img src="bu.png" id="bu">
+		<div id="bububu">
+			<img src="but.png" id="but" onmouseover="buttt()" onmouseout="butt()">
+		</div>
+
 	</body>
 </html>
